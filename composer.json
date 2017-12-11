@@ -3,7 +3,7 @@
     "description": "Ordena lista de direcciones ip y subredes | Sort list ip addresses and subnets ",
     "license": "MIT",
 	"type": "package",
-	
+	"minimum-stability": "stable",
 	"keywords": ["sort","address","subnet","subred","ordenamiento","ip","direccion ip"],
     "authors": [
         {
