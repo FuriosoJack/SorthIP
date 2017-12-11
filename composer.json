@@ -1,6 +1,6 @@
 {
     "name": "furiosojack/sorthip",
-    "description": "Ordena lista de direcciones ip y subredes | Sort list ip addresses and subnets",
+    "description": "Ordena lista de direcciones ip y subredes | Sort list ip addresses and subnets ",
     "license": "MIT",
 	"keywords": ["sort","address","subnet","subred","ordenamiento","ip","direccion ip"],
     "authors": [
