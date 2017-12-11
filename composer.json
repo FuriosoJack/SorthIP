@@ -12,7 +12,7 @@
     "homepage": "https://github.com/FuriosoJack/SorthIP",
 	"autoload": {
         "psr-4": {
-            "FuriosoJack\\MrBinaryTree\\": "src"
+            "FuriosoJack\\SorthIP\\": "src"
         }
     },	
     "require": {
