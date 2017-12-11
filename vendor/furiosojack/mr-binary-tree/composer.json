@@ -1,0 +1,22 @@
+{
+    "name": "furiosojack/mr-binary-tree",
+    "description": "Arbol binario para ordenamiento o busqueda | Binary tree to sort or search",
+    "license": "MIT",
+	"keywords": ["arbol","binario","ordenamiento","sort","binary-tree","tree","binary"],
+    "authors": [
+        {
+            "name": "FuriosoJack",
+            "email": "furiosojuan0@gmail.com"
+        }
+    ],
+	"homepage": "https://github.com/FuriosoJack/MrBinaryTree",
+	"autoload": {
+        "psr-4": {
+            "FuriosoJack\\MrBinaryTree\\": "src"
+        }
+    },	
+    "require": {
+		"php": ">= 5.4"
+	}	
+	
+}
