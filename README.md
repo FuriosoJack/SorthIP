@@ -42,3 +42,12 @@ $sotIp = new SorthIP($ips);
 echo $sotIp->orderAsc();
 ```
 
+result 
+```json
+array:4 [▼
+  0 => "256.0.0.0"
+  1 => "255.168.0.1"
+  2 => "172.6.0.1"
+  3 => "172.0.0.1"
+]
+```
