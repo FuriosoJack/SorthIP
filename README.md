@@ -28,3 +28,17 @@ add to your `composer.json`
 }
 ```
 
+## Examples
+
+ ```php
+$ips = [
+          '255.168.0.1',
+            '172.6.0.1',
+            '172.0.0.1',
+            '201.0.0.0'
+        ];
+$sotIp = new SorthIP($ips);
+
+echo $sotIp->orderAsc();
+```
+
