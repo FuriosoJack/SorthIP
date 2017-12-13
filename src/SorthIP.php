@@ -112,7 +112,7 @@ class SorthIP {
      */
     public function orderAsc(): array
     {              
-       $this->tree->inDesc($this->tree->getRoot());     
+       $this->tree->inAsc($this->tree->getRoot());     
        return $this->tree->getLisOrderedList();      
     }
     
