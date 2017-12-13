@@ -40,18 +40,31 @@ class SorthIP {
     
     protected $listAdresses;
     
-    protected $tree;
-
+    protected $tree;    
 
     /**
      * 
      * @param array $list lista de direcciones ip o subnets
+     * @param bool $isSubnet si es una subnet debe ser true de lo contrario no hace falta especificarlo
      */
-    public function __construct(array $list)
+    public function __construct(array $list, bool $isSubnet = false)
     {
         $this->listAdresses = $list;
+        
+        $isSubnet ? $this->subnetsToIps(): null; //Si es una lista de subnets se conviernte en ips
+        
         $this->tree = new MrBinaryTree();
         $this->buildTree();
+    }
+    
+    /**
+     * Convierte la lista de direcciones subnet en direcciones sin sufijo
+     */
+    protected function subnetsToIps()
+    {
+        for ($index = 0; $index < count($this->listAdresses); $index++) {
+            $this->listAdresses[$index] = explode('/', $this->listAdresses[$index])[0];
+        }
     }
     
     /**
